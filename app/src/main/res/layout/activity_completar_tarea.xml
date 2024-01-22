@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_assign"
+    tools:context=".completarTarea">
+
+    <TextView
+        android:id="@+id/tvTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvID"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Detalles"
+        android:textColor="@color/dark_blue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDescripcion"
+        android:layout_width="343dp"
+        android:layout_height="316dp"
+        android:layout_below="@id/tvTarea"
+        android:layout_centerHorizontal="true"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, velit quis iaculis facilisis, justo tortor malesuada ipsum, vel luctus ante neque sit amet nisl. Maecenas malesuada, felis eget vestibulum hendrerit, velit mi dictum metus, in hendrerit urna mi nec sapien. Donec fringilla elit quis elit dapibus ultricies. In lobortis diam eu diam vehicula, sed auctor justo scelerisque. In blandit tellus nec augue lacinia eleifend. Duis dictum semper neque, in eleifend nisi aliquam vel. Quisque ut lorem non nibh pharetra consequat. Etiam ut ipsum at sapien sollicitudin volutpat. Nulla facilisi. Aenean euismod lacus a augue scelerisque suscipit. Suspendisse tempor leo vitae sapien interdum, vel efficitur velit tincidunt. Sed ullamcorper vel risus non bibendum. Quisque sed posuere quam, vitae finibus purus. Aliquam at hendrerit diam."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:text="ID tarea :" />
+
+    <Button
+        android:id="@+id/btnCompletar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescripcion"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Completar" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvID"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="TextView" />
+
+</RelativeLayout>

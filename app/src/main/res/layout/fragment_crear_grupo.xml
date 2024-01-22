@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnAgregar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".CrearGrupo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tituloCrearGrupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/tituloCrearGrupo"
+        android:textColor="@color/dark_blue"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+    <EditText
+        android:id="@+id/nombreGrupo"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idGrupo"
+        android:layout_alignStart="@id/tituloCrearGrupo"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_medium"
+        android:hint="@string/nombreGrupo"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/idGrupo"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tituloCrearGrupo"
+        android:layout_alignStart="@id/tituloCrearGrupo"
+        android:layout_marginTop="10dp"
+        android:autofillHints=""
+        android:drawableStart="@drawable/baseline_groups_24"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:fontFamily="@font/raleway_medium"
+        android:hint="@string/idGrupo"
+        android:inputType="number"
+        android:padding="20dp" />
+
+
+    <Spinner
+        android:id="@+id/spIntegrantes"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nombreGrupo"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/tituloCrearGrupo"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/contenedorLista"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spIntegrantes"
+        android:layout_alignStart="@id/tituloCrearGrupo"
+        android:layout_marginTop="10dp"
+        android:hint="@string/listaIntegrantes">
+
+        <ListView
+            android:id="@+id/lvIntegrantes"
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCrearGrupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contenedorLista"
+        android:layout_alignStart="@id/tituloCrearGrupo"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="110dp"
+        android:backgroundTint="@color/dark_blue"
+        android:fontFamily="@font/raleway_semibold"
+        android:text="@string/botonCrear" />
+
+    <Button
+        android:id="@+id/btnAgrega"
+        android:layout_width="107dp"
+        android:layout_height="34dp"
+        android:layout_below="@id/nombreGrupo"
+
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="-115dp"
+
+        android:layout_marginBottom="20dp"
+        android:text="Agregar"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

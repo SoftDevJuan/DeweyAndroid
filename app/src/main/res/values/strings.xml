@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Dewey</string>
+    <string name="item1">Crear Tarea</string>
+    <string name="item2">Home</string>
+    <string name="item3">Crear Grupo</string>
+    <string name="tituloCrearTarea">¿Que haremos hoy?</string>
+    <string name="tituloTarea">Titulo</string>
+    <string name="responsableTarea">ID Responsable</string>
+    <string name="descripcionTarea">Describe qué hay que hacer</string>
+    <string name="botonCrear">Crear</string>
+    <string name="botonConsultar">Consultar</string>
+
+    <string name="tituloCrearGrupo">¿Cuál es el nuevo equipo?</string>
+    <string name="nombreGrupo">Nombre</string>
+    <string name="idGrupo">ID del grupo</string>
+    <string name="liderGrupo">Lider</string>
+    <string name="listaIntegrantes">Integrantes</string>
+
+    <string name="tituloVerTareas">Tareas</string>
+    <string name="tituloVerGrupos">Grupos</string>
+
+    //De Menu_Gerente
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Tareas</string>
+    <string name="menu_slideshow">Grupos</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="resgistrar">Registrar</string>
+    <string name="socials">Redes Sociales</string>
+    <string name="visit">Visitanos</string>
+    <string name="make_task">¿Que tarea haremos hoy?</string>
+    <string name="task">Titulo</string>
+    <string name="fechainic">Fecha de Inicio</string>
+    <string name="fechafin">Fecha de termino</string>
+    <string name="description">Descripción</string>
+    <string name="description_com">Describe que harás</string>
+    <string name="makegroup">Crear nuevo grupo</string>
+    <string name="namegroup">¿Cómo se llama el grupo?</string>
+    <string name="add_int">Agrega los integrantes</string>
+    <string name="make">Crear</string>
+    <string name="makeTask">Nueva Tarea</string>
+    <string name="viewTask">Tareas</string>
+    <string name="makeGroup">Nuevo Grupo</string>
+    <string name="viewGroups">Grupos</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="tituloMenu">Menú</string>
+    <string name="asignedTasks">Tareas Asignadas</string>
+    <string name="checkTask">¿Terminaste los Deberes?</string>
+    <string name="done">Hecho</string>
+    //De Menu_Gerente
+
+    <string-array name="opciones_spinner">
+        <item>Juan Carlos Gonzalez</item>
+        <item>Edgar Jair Lara</item>
+        <item>Diego Antonio Angel</item>
+        <item>Mariana Rodriguez</item>
+        <item>Adrian Hernandez</item>
+        <item>Juliana Estevez</item>
+        <item>Estefania Ramos</item>
+        <item>Daniel Zarate</item>
+        <item>Eduardo Ramirez</item>
+    </string-array>
+
+    <string-array name="tareasCreadas">
+        <item>Hacer Reporte Ventas</item>
+        <item>Hacer Reporte Compras</item>
+        <item>hacer revision de los equipos</item>
+        <item>Hacer upgrade a las versiones de software</item>
+        <item>Probar los equipos nuevos</item>
+    </string-array>
+
+    <string-array name="Grupos">
+        <item>Grupo Ventas</item>
+        <item>Grupo Inventarios</item>
+        <item>Grupo Desarrollo</item>
+        <item>Grupo RH</item>
+        <item>Grupo Gerentes</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

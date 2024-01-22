@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/back_home2"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tituloVerTareas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/dark_blue"
+        android:text="@string/tituloVerTareas"
+        android:fontFamily="@font/raleway_semibold"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+    <ImageButton
+        android:id="@+id/imtVerTareas"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tareas"
+        android:contentDescription="@string/tituloVerTareas"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tituloVerTareas"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tituloVerGrupos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/dark_blue"
+        android:text="@string/tituloVerGrupos"
+        android:fontFamily="@font/raleway_semibold"
+        android:layout_below="@id/imtVerTareas"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        tools:ignore="UseCompatTextViewDrawableXml" />
+
+    <ImageButton
+        android:id="@+id/imtVerGrupos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/grupos"
+        android:contentDescription="@string/tituloVerTareas"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/tituloVerGrupos"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
